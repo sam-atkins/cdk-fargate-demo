@@ -1,0 +1,13 @@
+stage: dev
+
+studySyncApp:
+  ALBFargateServiceCPU: 128
+  ALBFargateServiceMemoryLimitMib: 256
+  ALBFargateServiceServiceCount: 1
+  ecsInstanceType: "t3.micro"
+  env:
+    CONTAINER_PORT: "8080"
+    NODE_ENV: "dev"
+  fargateTaskCPU: 256
+  fargateTaskMemoryLimitMib: 512
+  imageTag: "1.0.0"

@@ -10,6 +10,19 @@ interface IConf {
   awsAccount: string;
   awsRegion: string;
   stage: string;
+  studySyncApp: {
+    ALBFargateServiceCPU: number;
+    ALBFargateServiceMemoryLimitMib: number;
+    ALBFargateServiceServiceCount: number;
+    ecsInstanceType: string;
+    env: {
+      CONTAINER_PORT: string;
+      NODE_ENV: string;
+    };
+    fargateTaskCPU: string;
+    fargateTaskMemoryLimitMib: string;
+    imageTag: string;
+  };
 }
 
 /**
