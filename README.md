@@ -1,3 +1,5 @@
+[![build](https://github.com/sam-atkins/cdk-fargate-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/sam-atkins/cdk-fargate-demo/actions/workflows/ci.yml)
+
 # Welcome to your CDK TypeScript project!
 
 This is a blank project for TypeScript development with CDK.
